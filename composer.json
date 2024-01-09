@@ -1,0 +1,25 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "isp/paypalbutton",
+    "require": {
+        "neos/flow": "*",
+        "neos/nodetypes": "*",
+        "neos/nodetypes-html": "*",
+        "neos/nodetypes-contentreferences": "*",
+        "neos/nodetypes-basemixins": "*",
+        "neos/nodetypes-assetlist": "*",
+        "neos/nodetypes-navigation": "*",
+        "shel/neos-colorpicker": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ISP\\PayPalButton\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "ISP.PayPalButton"
+        }
+    }
+}
